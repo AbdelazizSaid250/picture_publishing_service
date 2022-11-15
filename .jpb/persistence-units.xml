@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistenceUnitSettings">
+    <persistence-units>
+      <persistence-unit name="Default">
+        <packages>
+          <package value="com.example.picture_publishing_service" />
+        </packages>
+      </persistence-unit>
+      <persistence-unit name="Welcome">
+        <packages>
+          <package value="com.example.dao" />
+        </packages>
+        <entities>
+          <entity value="com.example.model.entity.Picture" />
+        </entities>
+      </persistence-unit>
+    </persistence-units>
+  </component>
+</project>
